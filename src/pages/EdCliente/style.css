@@ -1,0 +1,145 @@
+* {
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #1e5600;
+    border-radius: %;
+
+  }
+  
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #eff9ee;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  /* form */
+  #main-container {
+    text-align: left;
+    width: 700px;
+    margin-left: 57%;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 50px;
+    padding: 40px;
+    margin-right: 150px;
+    
+  }
+  
+  main {
+    flex-direction: column;
+  }
+/*   #main-container h1 {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+    width: 800px;
+  }
+   */
+ /*  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  } */
+/*   
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+    margin-right: 20%;
+  } */
+  
+/*   .half-box {
+    flex: 1 1 45%;
+    position: relative;
+    margin-right: 65%;
+  } */
+
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+
+  .button-atualizar{
+    cursor: pointer;
+  }
+
+  .button-cancelar {
+    cursor: pointer;
+}
+  input {
+    border-bottom: 1px solid #060001;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 28px;
+    border: none;
+    box-shadow: none;
+    border-radius: 15px;
+    margin-bottom: 1.1rem;
+  }
+  
+  
+  input[type="buttonatualizar"] {
+    background-color: #008015;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+  }
+  input[type="buttoncancelar"] {
+    background-color: #cc1d1d;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+
+#cep{
+    background-color: #ebf9e9 ;
+}
+
+#numero{
+    background-color: #ebf9e9 ;
+}
+
+#rua{
+    background-color: #ebf9e9 ;
+}
+
+#bairro{
+    background-color: #ebf9e9 ;
+}
+#telefone{
+    background-color: #ebf9e9 ;
+}
+#senha{
+    background-color: #ebf9e9 ;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 50%;
+}
+
+
+
+
+  /*......................................................................................................*/
+
+
