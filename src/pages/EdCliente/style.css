@@ -24,7 +24,7 @@
   #main-container {
     text-align: left;
     width: 700px;
-    margin-left: 57%;
+    margin-left: 50%;
     margin-right: auto;
     background-color: #FFF;
     border-radius: 50px;
@@ -136,10 +136,4 @@
 .container {
     width: 50%;
 }
-
-
-
-
-  /*......................................................................................................*/
-
 

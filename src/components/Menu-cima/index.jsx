@@ -43,7 +43,7 @@ export function Menucima() {
        
 */
 <body>
-    <nav>
+   {/*  <nav>
 
         <div class="logo">
         <img  src="./logo.svg" alt="Roomie" />
@@ -59,7 +59,26 @@ export function Menucima() {
         </div>
         
 
-    </nav>
+    </nav> */}
+    <nav>
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+
+		{/* <label class="logo">Minha Logo</label>
+        <img  src="./logo.svg" alt="Roomie" /> */}
+		<ul>
+              {/*   <a href="#" class="nav-logo">
+                <img  src="./logo.svg"  alt="Roomie" />
+                </a> */}
+        <li> <a href="#" class="active"> Home </a> </li>
+            <li> <a href="#"> Busque Aqui</a> </li>
+            <li> <a href="#"> Anuncie Aqui</a> </li>
+            <li> <a href="#"> Sobre </a> </li>
+		</ul>
+
+	</nav>
+
     <script src="main.js"></script>
 </body>
    

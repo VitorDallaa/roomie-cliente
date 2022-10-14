@@ -10,6 +10,10 @@ function Admin() {
   return (
   <main>
 
+<div className="form-image">
+      <img src="./logo.svg" alt="Logo da Roomie" />
+      </div>
+
     <section className="menu">
     <MenuLateral />
     </section>

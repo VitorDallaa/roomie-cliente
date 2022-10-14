@@ -1,7 +1,7 @@
 
 
 .form{
-    width: 70%;
+    width: 51%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,16 +11,22 @@
     border-radius:50px;
 }
 
+.form-image{
+    width: 44%;
+    height: 60%;
+}
+
 .input-form input{
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
-    box-shadow: 1px 1px 6px;
-    margin-bottom: 100px;
+    /*margin: 0.6rem 0;*/
+    margin: 2px;
+    /*padding: 0.8rem 1.2rem;*/
+    /*border: none;*/
+    /*border-radius: 15px;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*margin-bottom: 1.1rem;*/
+   /* box-shadow: 1px 1px 6px;*/
+    margin-bottom: 20px;
 
 }
 
@@ -63,7 +69,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .confirmar-button button {
@@ -91,4 +97,17 @@
 }
 .cancelar-button button:hover{
     background-color: #cb1e1e;
+}
+
+.botoes{
+    display: flex;
+    order: 2;
+}
+.botoes button {
+    width: 184px;
+}
+.data{
+    order: 2;
+    width: 184px;
+    /*background-color: #ebf9e9 ;*/
 }

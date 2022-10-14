@@ -10,14 +10,19 @@ function Edicao(){
     
 <main>
 
- <section className="menucima">
+<div className="menu">
+<section className="menucima">
     <Menucima />
     </section> 
+</div>
 
-    <div class="image">
-    
+
+
+   {/*  <div class="form-image">
     <img src="../../../public/perfil.jpg" alt="Minha Figura"  />
-    </div>
+    </div> */}
+
+
     <div id="main-container">
         <h1>Editar Cadastro</h1>
         <br/>
